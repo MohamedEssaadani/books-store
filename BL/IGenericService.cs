@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BooksStore.DAL.Repositories.GenericRepository
+namespace BL
 {
-    public interface IGenericRepository<T> where T : class
+    public interface IGenericService<T> where T : class
     {
         public void Add(T obj);
         public T GetById(int id);

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BooksStore.DAL.Repositories.AuthorRepository
 {
-    internal class AuthorRepository : GenericRepository<Author>
+    public class AuthorRepository : GenericRepository<Author>
     {
         public AuthorRepository(BookStoreDb context) : base(context)
         {

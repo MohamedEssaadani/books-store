@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BooksStore.DAL.Repositories.GenericRepository
 {
-    internal class GenericRepository<T> : IGenericRepository<T> where T : class
+    public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
         private readonly BookStoreDb _context;
         private DbSet<T> table;

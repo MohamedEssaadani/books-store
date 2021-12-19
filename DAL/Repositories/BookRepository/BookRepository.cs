@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BooksStore.DAL.Repositories.BookRepository
 {
-    internal class BookRepository : GenericRepository<Book>
+    public class BookRepository : GenericRepository<Book>
     {
         public BookRepository(BookStoreDb context) : base(context)
         {
