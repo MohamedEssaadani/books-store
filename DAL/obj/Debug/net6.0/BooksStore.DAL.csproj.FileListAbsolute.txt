@@ -1,0 +1,12 @@
+C:\Users\XPS\source\repos\BooksStore\BooksStore.Data\bin\Debug\net6.0\BooksStore.DAL.deps.json
+C:\Users\XPS\source\repos\BooksStore\BooksStore.Data\bin\Debug\net6.0\BooksStore.DAL.dll
+C:\Users\XPS\source\repos\BooksStore\BooksStore.Data\bin\Debug\net6.0\ref\BooksStore.DAL.dll
+C:\Users\XPS\source\repos\BooksStore\BooksStore.Data\bin\Debug\net6.0\BooksStore.DAL.pdb
+C:\Users\XPS\source\repos\BooksStore\BooksStore.Data\obj\Debug\net6.0\BooksStore.DAL.csproj.AssemblyReference.cache
+C:\Users\XPS\source\repos\BooksStore\BooksStore.Data\obj\Debug\net6.0\BooksStore.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\XPS\source\repos\BooksStore\BooksStore.Data\obj\Debug\net6.0\BooksStore.DAL.AssemblyInfoInputs.cache
+C:\Users\XPS\source\repos\BooksStore\BooksStore.Data\obj\Debug\net6.0\BooksStore.DAL.AssemblyInfo.cs
+C:\Users\XPS\source\repos\BooksStore\BooksStore.Data\obj\Debug\net6.0\BooksStore.DAL.csproj.CoreCompileInputs.cache
+C:\Users\XPS\source\repos\BooksStore\BooksStore.Data\obj\Debug\net6.0\BooksStore.DAL.dll
+C:\Users\XPS\source\repos\BooksStore\BooksStore.Data\obj\Debug\net6.0\ref\BooksStore.DAL.dll
+C:\Users\XPS\source\repos\BooksStore\BooksStore.Data\obj\Debug\net6.0\BooksStore.DAL.pdb

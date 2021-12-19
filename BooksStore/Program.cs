@@ -1,10 +1,25 @@
+using BooksStore.DAL;
+using BooksStore.DAL.Seeders;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddDbContext<BookStoreDb>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("BookStoreDb")));
+
 var app = builder.Build();
+
+// initialize database using SeedData Seeder class
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+
+    SeedData.Initialize(services);
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
