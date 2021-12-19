@@ -3,7 +3,6 @@ C:\Users\XPS\source\repos\BooksStore\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
 C:\Users\XPS\source\repos\BooksStore\DAL\bin\Debug\net6.0\DAL.dll
 C:\Users\XPS\source\repos\BooksStore\DAL\bin\Debug\net6.0\ref\DAL.dll
 C:\Users\XPS\source\repos\BooksStore\DAL\bin\Debug\net6.0\DAL.pdb
-C:\Users\XPS\source\repos\BooksStore\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
 C:\Users\XPS\source\repos\BooksStore\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\XPS\source\repos\BooksStore\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
 C:\Users\XPS\source\repos\BooksStore\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
@@ -12,3 +11,4 @@ C:\Users\XPS\source\repos\BooksStore\DAL\obj\Debug\net6.0\DAL.dll
 C:\Users\XPS\source\repos\BooksStore\DAL\obj\Debug\net6.0\ref\DAL.dll
 C:\Users\XPS\source\repos\BooksStore\DAL\obj\Debug\net6.0\DAL.pdb
 C:\Users\XPS\source\repos\BooksStore\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
+C:\Users\XPS\source\repos\BooksStore\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
