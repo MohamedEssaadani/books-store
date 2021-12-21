@@ -1,13 +1,11 @@
 import {Sidebar} from "./components/Sidebar";
-import {BrowserRouter as Router, Switch, Route, Link, useHistory} from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import {Dropdown} from "react-bootstrap";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faPlus, faSignOutAlt, faUser, faUsers} from "@fortawesome/free-solid-svg-icons";
-
+import { faPlus, faSignOutAlt, faUser, faUsers } from "@fortawesome/free-solid-svg-icons";
+import BooksList from "./components/books/BooksList";
 
 function App() {
-
-
     return (
         <div className="App">
             <Router>
@@ -49,7 +47,8 @@ function App() {
                                 </ul>
                             </nav>
                             <Switch>
-                                <Route path="/" exact/>
+                                <Route path="/" exact />
+                                <Route path="/admin/books" exact component={BooksList} />
                             </Switch>
                         </div>
                     </div>

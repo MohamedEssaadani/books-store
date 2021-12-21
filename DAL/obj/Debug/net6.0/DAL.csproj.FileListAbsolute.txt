@@ -11,4 +11,3 @@ C:\Users\XPS\source\repos\BooksStore\DAL\obj\Debug\net6.0\DAL.dll
 C:\Users\XPS\source\repos\BooksStore\DAL\obj\Debug\net6.0\ref\DAL.dll
 C:\Users\XPS\source\repos\BooksStore\DAL\obj\Debug\net6.0\DAL.pdb
 C:\Users\XPS\source\repos\BooksStore\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
-C:\Users\XPS\source\repos\BooksStore\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache

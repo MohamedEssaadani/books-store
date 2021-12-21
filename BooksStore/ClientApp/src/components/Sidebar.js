@@ -46,7 +46,7 @@ export function Sidebar() {
                     </Dropdown.Toggle>
 
                     <Dropdown.Menu>
-                        <LinkContainer to={"/admin/customers"}>
+                        <LinkContainer to={"/admin/books"}>
                             <Dropdown.Item>
                                 <FontAwesomeIcon icon={faBook} />
                                 {" "}<span>Books</span>

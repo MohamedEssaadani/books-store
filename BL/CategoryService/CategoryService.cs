@@ -1,10 +1,12 @@
 ﻿using BooksStore.DAL.Models;
 using BooksStore.DAL.Repositories.CategoryRepository;
+using BooksStore.DAL.Repositories.GenericRepository;
 
 namespace BL.CategoryService
 {
     public class CategoryService : ICategoryService
     {
+        //private IGenericRepository<Category> _repository;
         private CategoryRepository _repository;
 
         public CategoryService(CategoryRepository repository)

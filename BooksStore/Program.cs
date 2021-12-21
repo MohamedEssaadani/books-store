@@ -1,15 +1,38 @@
+using BL.AuthorService;
+using BL.BookService;
+using BL.CategoryService;
 using BooksStore.DAL;
+using BooksStore.DAL.Models;
+using BooksStore.DAL.Repositories.AuthorRepository;
+using BooksStore.DAL.Repositories.BookRepository;
+using BooksStore.DAL.Repositories.CategoryRepository;
+using BooksStore.DAL.Repositories.GenericRepository;
 using BooksStore.DAL.Seeders;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<BookStoreDb>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("BookStoreDb")));
+
+builder.Services.AddTransient<CategoryService>();
+builder.Services.AddTransient<CategoryRepository>();
+
+builder.Services.AddTransient<AuthorService>();
+builder.Services.AddTransient<AuthorRepository>();
+
+builder.Services.AddTransient<BookService>();
+builder.Services.AddTransient<BookRepository>();
+builder.Services.AddCors(o => o.AddPolicy("LowCorsPolicy", builder =>
+{
+    builder.AllowAnyOrigin()
+           .AllowAnyMethod()
+           .AllowAnyHeader();
+}));
+
 
 var app = builder.Build();
 
@@ -27,6 +50,8 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
+app.UseCors("LowCorsPolicy");
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

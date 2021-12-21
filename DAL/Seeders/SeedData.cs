@@ -78,32 +78,45 @@ namespace BooksStore.DAL.Seeders
                         BookName = "Wings of Fire",
                         Author = context.Authors.SingleOrDefault(x => x.AuthorId == 1),
                         AuthorId = context.Authors.SingleOrDefault(x => x.AuthorId == 1).AuthorId,
-                        category = context.Categories.SingleOrDefault(x => x.CategoryId == 1),
+                        Category = context.Categories.SingleOrDefault(x => x.CategoryId == 1),
                         CategoryId = context.Categories.SingleOrDefault(x => x.CategoryId == 1).CategoryId,
+                        Price = 37.33,
+                        ReleaseDate = new DateTime(2015, 12, 31),
+
                     },
                      new Book
                      {
                          BookName = "Mile High with a Vampire [Large Print]",
                          Author = context.Authors.SingleOrDefault(x => x.AuthorId == 2),
                          AuthorId = context.Authors.SingleOrDefault(x => x.AuthorId == 2).AuthorId,
-                         category = context.Categories.SingleOrDefault(x => x.CategoryId == 2),
+                         Category = context.Categories.SingleOrDefault(x => x.CategoryId == 2),
                          CategoryId = context.Categories.SingleOrDefault(x => x.CategoryId == 2).CategoryId,
+                         Price = 49,
+                         ReleaseDate = new DateTime(1998, 01, 18),
+
                      },
                       new Book
                       {
                           BookName = "Terciel & Elinor",
                           Author = context.Authors.SingleOrDefault(x => x.AuthorId == 3),
                           AuthorId = context.Authors.SingleOrDefault(x => x.AuthorId == 3).AuthorId,
-                          category = context.Categories.SingleOrDefault(x => x.CategoryId == 2),
+                          Category = context.Categories.SingleOrDefault(x => x.CategoryId == 2),
                           CategoryId = context.Categories.SingleOrDefault(x => x.CategoryId == 2).CategoryId,
+                          Price = 39.12,
+                          ReleaseDate = new DateTime(2000, 10, 01),
+
+
                       },
                        new Book
                        {
                            BookName = "Harry Potter: Holiday Magic: The Official Advent Calendar",
                            Author = context.Authors.SingleOrDefault(x => x.AuthorId == 4),
                            AuthorId = context.Authors.SingleOrDefault(x => x.AuthorId == 4).AuthorId,
-                           category = context.Categories.SingleOrDefault(x => x.CategoryId == 3),
+                           Category = context.Categories.SingleOrDefault(x => x.CategoryId == 3),
                            CategoryId = context.Categories.SingleOrDefault(x => x.CategoryId == 3).CategoryId,
+                           Price = 77,
+                           ReleaseDate = new DateTime(1995, 02, 18),
+
                        }
                     );
                 context.SaveChanges();
