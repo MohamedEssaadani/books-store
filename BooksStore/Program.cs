@@ -2,11 +2,9 @@ using BL.AuthorService;
 using BL.BookService;
 using BL.CategoryService;
 using BooksStore.DAL;
-using BooksStore.DAL.Models;
 using BooksStore.DAL.Repositories.AuthorRepository;
 using BooksStore.DAL.Repositories.BookRepository;
 using BooksStore.DAL.Repositories.CategoryRepository;
-using BooksStore.DAL.Repositories.GenericRepository;
 using BooksStore.DAL.Seeders;
 using Microsoft.EntityFrameworkCore;
 

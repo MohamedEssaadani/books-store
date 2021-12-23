@@ -47,7 +47,7 @@ function App() {
                                 </ul>
                             </nav>
                             <Switch>
-                                <Route path="/" exact />
+                                <Route path="/" exact component={BooksList} />
                                 <Route path="/admin/books" exact component={BooksList} />
                             </Switch>
                         </div>

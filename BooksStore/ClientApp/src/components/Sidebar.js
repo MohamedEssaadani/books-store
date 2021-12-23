@@ -26,15 +26,6 @@ export function Sidebar() {
                     <div className="sidebar-brand-text mx-3">Books Store</div>
                 </a>
 
-                <hr className="sidebar-divider my-0"/>
-
-                <li className="nav-item active">
-                    <Link className="nav-link" to="/admin/">
-                        <FontAwesomeIcon icon={faChartArea}/>
-                        {" "}<span>Tableau de board</span>
-                    </Link>
-                </li>
-
                 <hr className="sidebar-divider"/>
 
                 <div className="sidebar-heading">Books Management</div>
