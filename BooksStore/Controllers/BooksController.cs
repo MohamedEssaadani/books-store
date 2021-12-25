@@ -1,5 +1,5 @@
-﻿using BL.BookService;
-using BooksStore.DAL.Models;
+﻿using BooksStore.DAO;
+using BooksStore.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BooksStore.Controllers

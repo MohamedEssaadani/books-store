@@ -4,6 +4,8 @@ import {Dropdown} from "react-bootstrap";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faPlus, faSignOutAlt, faUser, faUsers } from "@fortawesome/free-solid-svg-icons";
 import BooksList from "./components/books/BooksList";
+import AuthorsList from "./components/authors/AuthorsList";
+import CategoriesList from "./components/categories/CategoriesList";
 
 function App() {
     return (
@@ -49,6 +51,8 @@ function App() {
                             <Switch>
                                 <Route path="/" exact component={BooksList} />
                                 <Route path="/admin/books" exact component={BooksList} />
+                                <Route path="/admin/authors" exact component={AuthorsList} />
+                                <Route path="/admin/categories" exact component={CategoriesList} />
                             </Switch>
                         </div>
                     </div>

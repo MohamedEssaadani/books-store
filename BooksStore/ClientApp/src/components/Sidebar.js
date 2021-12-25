@@ -62,7 +62,7 @@ export function Sidebar() {
                     </Dropdown.Toggle>
 
                     <Dropdown.Menu>
-                        <LinkContainer to={"/admin/accounts"}>
+                        <LinkContainer to={"/admin/categories"}>
                             <Dropdown.Item>
                                 <FontAwesomeIcon icon={faList} />
                                 {" "}<span>Categories</span>
@@ -85,7 +85,7 @@ export function Sidebar() {
                     </Dropdown.Toggle>
 
                     <Dropdown.Menu>
-                        <LinkContainer to={"/admin/accounts"}>
+                        <LinkContainer to={"/admin/authors"}>
                             <Dropdown.Item>
                                 <FontAwesomeIcon icon={faUsers} />
                                 {" "}<span>Authors</span>

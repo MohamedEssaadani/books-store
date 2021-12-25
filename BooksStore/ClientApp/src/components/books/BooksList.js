@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import axios from "axios"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBook, faEdit, faEye, faPlus } from '@fortawesome/free-solid-svg-icons';
-import { Button, Table } from "react-bootstrap";
+import { faBook, faEdit, faEye } from '@fortawesome/free-solid-svg-icons';
+import { Table } from "react-bootstrap";
 import * as moment from 'moment'
 import { Link } from "react-router-dom";
 
@@ -94,5 +94,6 @@ export default class BooksList extends Component {
         const response = await axios.get('https://localhost:7069/books');
         const { data } = await response;
         this.setState({ books: data, loading: false });
+
     }
 }

@@ -1,8 +1,6 @@
-﻿using BL.AuthorService;
-using BooksStore.DAL.Models;
-using Microsoft.AspNetCore.Http;
+﻿using BooksStore.DAO;
+using BooksStore.Services;
 using Microsoft.AspNetCore.Mvc;
-
 namespace BooksStore.Controllers
 {
     [Route("api/[controller]")]

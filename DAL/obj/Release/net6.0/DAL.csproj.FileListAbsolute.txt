@@ -1,0 +1,14 @@
+C:\Users\XPS\source\repos\BooksStore\DAL\bin\Release\net6.0\DAL.deps.json
+C:\Users\XPS\source\repos\BooksStore\DAL\bin\Release\net6.0\DAL.runtimeconfig.json
+C:\Users\XPS\source\repos\BooksStore\DAL\bin\Release\net6.0\DAL.dll
+C:\Users\XPS\source\repos\BooksStore\DAL\bin\Release\net6.0\ref\DAL.dll
+C:\Users\XPS\source\repos\BooksStore\DAL\bin\Release\net6.0\DAL.pdb
+C:\Users\XPS\source\repos\BooksStore\DAL\obj\Release\net6.0\DAL.csproj.AssemblyReference.cache
+C:\Users\XPS\source\repos\BooksStore\DAL\obj\Release\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\XPS\source\repos\BooksStore\DAL\obj\Release\net6.0\DAL.AssemblyInfoInputs.cache
+C:\Users\XPS\source\repos\BooksStore\DAL\obj\Release\net6.0\DAL.AssemblyInfo.cs
+C:\Users\XPS\source\repos\BooksStore\DAL\obj\Release\net6.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\XPS\source\repos\BooksStore\DAL\obj\Release\net6.0\DAL.dll
+C:\Users\XPS\source\repos\BooksStore\DAL\obj\Release\net6.0\ref\DAL.dll
+C:\Users\XPS\source\repos\BooksStore\DAL\obj\Release\net6.0\DAL.pdb
+C:\Users\XPS\source\repos\BooksStore\DAL\obj\Release\net6.0\DAL.genruntimeconfig.cache

@@ -1,11 +1,5 @@
-using BL.AuthorService;
-using BL.BookService;
-using BL.CategoryService;
-using BooksStore.DAL;
-using BooksStore.DAL.Repositories.AuthorRepository;
-using BooksStore.DAL.Repositories.BookRepository;
-using BooksStore.DAL.Repositories.CategoryRepository;
-using BooksStore.DAL.Seeders;
+using BooksStore.DAO;
+using BooksStore.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,6 +18,7 @@ builder.Services.AddTransient<AuthorRepository>();
 
 builder.Services.AddTransient<BookService>();
 builder.Services.AddTransient<BookRepository>();
+
 builder.Services.AddCors(o => o.AddPolicy("LowCorsPolicy", builder =>
 {
     builder.AllowAnyOrigin()
