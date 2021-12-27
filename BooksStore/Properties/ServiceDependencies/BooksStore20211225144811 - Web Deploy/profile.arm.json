@@ -21,7 +21,7 @@
     },
     "resourceName": {
       "type": "string",
-      "defaultValue": "BooksStore20211224190937",
+      "defaultValue": "BooksStore20211225144811",
       "metadata": {
         "description": "Name of the main resource to be created by this template."
       }
