@@ -12,7 +12,7 @@ namespace BooksStore.DAO
     {
         public BookStoreDb(DbContextOptions<BookStoreDb> options) : base(options)
         {
-            
+           Database.EnsureCreated();
         }
 
         public DbSet<Category> Categories { get; set; }

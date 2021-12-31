@@ -86,7 +86,7 @@ export default class CategoriesList extends Component {
     }
 
     async populateCategories() {
-        const response = await axios.get('https://localhost:7069/api/categories');
+        const response = await axios.get('/api/categories');
         const { data } = await response;
         this.setState({ categories: data, loading: false });
     }

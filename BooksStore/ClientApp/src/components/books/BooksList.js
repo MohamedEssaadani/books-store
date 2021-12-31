@@ -91,7 +91,7 @@ export default class BooksList extends Component {
     }
 
     async populateBooks() {
-        const response = await axios.get('https://localhost:7069/books');
+        const response = await axios.get('/books');
         const { data } = await response;
         this.setState({ books: data, loading: false });
 

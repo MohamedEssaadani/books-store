@@ -87,7 +87,7 @@ export default class AuthorsList extends Component {
     }
 
     async populateAuthors() {
-        const response = await axios.get('https://localhost:7069/api/authors');
+        const response = await axios.get('/api/authors');
         const { data } = await response;
         this.setState({ authors: data, loading: false });
 
