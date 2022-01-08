@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:44422",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\XPS\\source\\repos\\BooksStore\\BooksStore\\ClientApp\\",
+"MaxTimeoutInSeconds": "120"
+}
+}
